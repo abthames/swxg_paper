@@ -10,19 +10,19 @@ tags:
   - copula
 authors:
   - name: Alexander B. Thames
-  - orcid: 0000-0003-4044-2471
-  - affiliation: 1
+    orcid: 0000-0003-4044-2471
+    affiliation: 1
   - name: Antonia Hadjimichael
-  - orcid: 0000-0001-7330-6834
-  - affiliation: 1
+    orcid: 0000-0001-7330-6834
+    affiliation: 1
   - name: Julianne D. Quinn
-  - orcid: 0000-0001-7806-4416
-  - affiliation: 2
+    orcid: 0000-0001-7806-4416
+    affiliation: 2
 affiliations:
-  - index: 1
   - name: Department of Geosciences, The Pennsylvania State University. University Park, Pennsylvania, USA.
-  - index: 2
+    index: 1
   - name: School of Engineering and Applied Science, University of Virginia. Charlottesville, Virginia, USA.
+    index: 2
 date: 19 Aug 2025
 bibliography: paper.bib
 ---
