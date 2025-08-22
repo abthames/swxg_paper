@@ -35,7 +35,7 @@ Alternatively, "bottom-up" methodologies center the *deep uncertainties* [@lempe
 Stochastic weather generators (SWGs) are suitable exploratory modeling tools for exploratory climate impact analyses as they are statistical models that can simulate realistic, arbitrarily long sequences of regionally-informed meteorological variables like precipitation and temperature [@gabriel:1962; @richardson:1981; @wilks:1999; @ailliot:2015]. Critically, SWGs must be *multivariate* and *multisite* [@van-wart:2015; bureau-of-reclamation:2022] to account for both the region-specific spatiotemporal correlations and nonlinearities between hydroclimatic variables [@li:2019]. To this end we have developed `swxg`, a Python-based package that allows users to easily and quickly synthesize regionally-correlated weather variables based on an input set of observations through the state-of-the-art methodology of the semiparametric generation of precipitation followed by the conditional, copula-based generation of temperature. Included in the package are also methods to validate how the data has been fit, and how the synthetic weather compares to the observed weather.
 
 # Design Architecture
-Figure \autoref{swxgarch} outlines the typical `swxg` workflow along with example functions that are called in each step. Documentation of all functions can be found in the `swxg` [API]().
+Figure \autoref{swxgarch} outlines the typical `swxg` workflow along with example functions that are called in each step. Documentation of all functions can be found in the `swxg` [API](https://swxg.readthedocs.io/).
 
 ![](swxgarch.svg)\label{swxgarch}
 
